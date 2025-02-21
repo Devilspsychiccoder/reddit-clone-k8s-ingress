@@ -15,13 +15,13 @@ You can install Prerequisites by doing these steps. You can Install all this by 
 # Steps:-
 ```
 
-# For Docker Installation
+# For Docker Installation. On both the server CI Server and K8s Server
 
 sudo apt-get update -y
 sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER && newgrp docker
 
-# For Minikube & Kubectl
+# For Minikube & Kubectl. Need to be installed only on K8s Server 
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube 
