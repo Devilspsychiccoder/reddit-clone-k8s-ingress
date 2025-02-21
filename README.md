@@ -29,8 +29,9 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 sudo snap install kubectl --classic
 minikube start --driver=docker
 
-# Great! You're all set for the project. Your Minikube cluster is now prepared for deploying the Reddit clone application. For More Please checkout the link : https://trainwithshubham.hashnode.dev/deployed-a-reddit-copy-on-kubernetes-with-ingress-enabled
+# Great! You're all set for the project. Your Minikube cluster is now prepared for deploying the Reddit clone application. For More Please checkout the link :
 ```
+https://trainwithshubham.hashnode.dev/deployed-a-reddit-copy-on-kubernetes-with-ingress-enabled
 
 ## Installation
 Follow these steps to install and run the Reddit clone app on your local machine:
