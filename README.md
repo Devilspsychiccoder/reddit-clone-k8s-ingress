@@ -13,6 +13,8 @@ Before you begin, you should have the following tools installed on your local ma
 
 You can install Prerequisites by doing these steps. You can Install all this by doing the below steps one by one. and these steps are for Ubuntu AMI.
 # Steps:-
+```
+
 For Docker Installation
 
 sudo apt-get update
@@ -28,7 +30,7 @@ sudo snap install kubectl --classic
 minikube start --driver=docker
 
 Great! You're all set for the project. Your Minikube cluster is now prepared for deploying the Reddit clone application. For More Please checkout the link : https://trainwithshubham.hashnode.dev/deployed-a-reddit-copy-on-kubernetes-with-ingress-enabled
-
+```
 
 ## Installation
 Follow these steps to install and run the Reddit clone app on your local machine:
